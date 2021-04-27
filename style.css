@@ -140,11 +140,18 @@ html{
     height: 65vh;
     width: 70vw;
     margin-top: 7.5vh;
-    background-color: #ad99ff8f;
+    /* background-color: #ad99ff8f; */
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .dropdown-item:hover{
     background-color: #704DFF;
     color: white;
+}
+
+.pic2{
+    display: flex;
 }
