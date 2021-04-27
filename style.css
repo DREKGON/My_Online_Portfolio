@@ -132,13 +132,12 @@ html{
     font-size: 18px
 }
 
-.gallery_sec1{
+.progallery_sec1{
     scroll-snap-align: end;
     background-color: #382680;
     height: calc(250vh - 56px);
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     margin-top: 56px;
     justify-content: center;
 }

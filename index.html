@@ -39,6 +39,7 @@
                 portfolio.</span>
         </div>
     </div>
+
     <div class="container-fluid sec2" id="sample_of_my_works">
         <center>
             <div class="headtx">Sample of my works</div>
@@ -113,11 +114,15 @@
 <script>
     goTo();
     function goTo() {
-        // console.log(!window.location.hash);
-        if (!window.location.hash) {
-            return
+        console.log(window.location.hash);
+        // if (!window.location.hash) {
+        //     return
+        // }
+        // setTimeout(function () { window.location.href = window.location.hash; }, 150);
+
+        if (window.location.hash) {
+            setTimeout(function () { window.location.href = window.location.hash; }, 150);
         }
-        setTimeout(function () { window.location.href = window.location.hash; }, 150);
     }
 </script>
 
