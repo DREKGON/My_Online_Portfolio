@@ -139,12 +139,12 @@ html{
 .pro_gallery{
     height: 65vh;
     width: 70vw;
-    margin-top: 7.5vh;
+    margin-top: 2.5vh;
     /* background-color: #ad99ff8f; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .dropdown-item:hover{
