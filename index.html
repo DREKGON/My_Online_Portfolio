@@ -115,11 +115,6 @@
     goTo();
     function goTo() {
         console.log(window.location.hash);
-        // if (!window.location.hash) {
-        //     return
-        // }
-        // setTimeout(function () { window.location.href = window.location.hash; }, 150);
-
         if (window.location.hash) {
             setTimeout(function () { window.location.href = window.location.hash; }, 150);
         }
